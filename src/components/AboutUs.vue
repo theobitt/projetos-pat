@@ -101,7 +101,7 @@ h4 {
   font-size: 16px;
 }
 
-@media only screen and (max-height: 900px) {
+@media only screen and (max-height: 900px) and (max-width: 700px) {
   .about-us-container {
     display: flex;
     flex-direction: column;
