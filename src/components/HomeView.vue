@@ -79,6 +79,20 @@ h4{
   margin-top: -10vh;
   text-shadow: 2px 2px 0px rgb(161,0,242, .8);
 }
+
+@media only screen and (max-width: 1500px){
+  .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  background-image: url("@/assets/img/backgroundheader.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: -350px;
+}
+}
 @media only screen and (max-height: 653px){
   .container {
   display: flex;

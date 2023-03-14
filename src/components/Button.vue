@@ -44,14 +44,14 @@ span {
   text-align: left;
   background-color: transparent;
   font-weight: bold;
-  margin-left: 15px;
+  margin-left: 40px;
   text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
 
 }
 img{
   position: absolute;
-  margin-left: 220px;
-  transform: scale(1.0);
+  margin-left: 375px;
+  transform: scale(1.5);
   width: 16px;
   height: 16px;
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(248deg) brightness(107%) contrast(102%);
@@ -74,7 +74,23 @@ img:hover{
   /* justify-content: center; */
   width: 250px;
   font-family: 'GothamBold';
-  font-size: 14px;
+  font-size: 15px;
+}
+span {
+  text-align: left;
+  background-color: transparent;
+  font-weight: bold;
+  margin-left: 10px;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+
+}
+img{
+  position: absolute;
+  margin-left: 225px;
+  transform: scale(0.7);
+  width: 16px;
+  height: 16px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(248deg) brightness(107%) contrast(102%);
 }
 }
 </style>
