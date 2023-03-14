@@ -16,16 +16,21 @@
 
 <script>
 import ButtonVue from './Button.vue';
+// import Swal from "sweetalert2"
 export default {
   components: {
     ButtonVue
   },
   setup() {
     async function whatsAppTheo(){
-     await Vue.swal({
-      icon: "success",
-      title: "Aguarde!"
-     });
+    //  await Swal.fire({
+    //   icon: "success",
+    //   title: "Aguarde!",
+    //   text: "Você será levado ao WhatsApp!",
+    //   background: "#2f2f2f",
+    //   iconColor: "white",
+    //   color: "white"
+    //  });
        window.open("https://api.whatsapp.com/send?phone=5521967543780") 
     }
     function whatsAppRilson(){
