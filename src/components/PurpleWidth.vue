@@ -44,7 +44,7 @@ export default {};
   flex-direction: row;
   font-size: 32px;
 }
-@media screen and (max-width: 1024px) and (max-height: 768px){
+@media only screen and (max-height: 653px){
   .wide-purple-container {
   display: flex;
   flex-direction: column;
@@ -54,17 +54,18 @@ export default {};
   width: 100%;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
   height: 400px;
-  top: 400px;
+  /* top: 400px; */
   position: absolute;
 }
 .items-container {
+  margin-top: 5vh;
   align-items: center;
   padding: 40px;
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  font-size: 32px;
+  font-size: 22px;
   gap: 14vh;
 
 }

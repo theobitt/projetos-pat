@@ -79,7 +79,7 @@ h4{
   margin-top: -10vh;
   text-shadow: 2px 2px 0px rgb(161,0,242, .8);
 }
-@media only screen and (max-width: 1024px) and (max-height: 768px){
+@media only screen and (max-height: 653px){
   .container {
   display: flex;
   flex-direction: column;
@@ -88,8 +88,27 @@ h4{
   height: 400px;
   background-image: url("@/assets/img/backgroundheader.jpg");
   background-repeat: no-repeat;
-  background-size: 200%;
+  background-size: auto;
   background-position-x: -350px;
+}
+.img{
+  transform: scale(0.3);
+  float: left;
+  margin-bottom: 0vh;
+  position: absolute
+}
+h4{
+  padding: 10px;
+  position: relative;
+  margin-top: 40vh;
+
+  color: white;
+  margin-bottom: 0vh;
+  text-shadow: 2px 2px 0px rgb(161,0,242, .8);
+}
+.button{
+  position: relative;
+  margin-top: 5vh;
 }
 }
 </style>

@@ -103,12 +103,12 @@ h4{
     font-size: 16px;
 }
 
-@media only screen and (max-width: 1024px) and (max-height: 768px){
+@media only screen and (max-height: 653px){
     .about-us-container{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 1000px;
+    height: 1200px;
     align-items: center;
     justify-content: center;
     background: linear-gradient(52deg, rgb(40, 34, 34) 20%, rgb(54, 54, 54) 100%);
@@ -121,7 +121,7 @@ h4{
     flex-direction: column;
     width: 100%;
     padding: 40px;
-    /* gap: -10vh; */
+    align-items: center;
 }
 .img1{
     border-radius: 60%;
@@ -156,16 +156,24 @@ h4{
   background-size: 110%;
 }
 h1{
-    margin-top: 15vh;
+    margin-top: 5vh;
     float: right;
 }
 h2{
     margin-top: 1vh;
-    font-size: 30px;
+    font-size: 15px;
+    width: 100%;
 }
 h4{
-    font-size: 16px;
+    font-size: 12px;
+    margin-top: 2vh;
 }
-
+.each-photo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+   
+}
 }
 </style>

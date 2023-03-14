@@ -44,14 +44,14 @@ span {
   text-align: left;
   background-color: transparent;
   font-weight: bold;
-  margin-left: 40px;
+  margin-left: 15px;
   text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
 
 }
 img{
   position: absolute;
-  margin-left: 375px;
-  transform: scale(1.5);
+  margin-left: 220px;
+  transform: scale(1.0);
   width: 16px;
   height: 16px;
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(248deg) brightness(107%) contrast(102%);
@@ -59,5 +59,22 @@ img{
 img:hover{
   cursor: pointer;
   /* opacity: 0.7; */
+}
+
+@media only screen and (max-height: 653px){
+  button {
+  height: 42px;
+  border: none;
+  background-color: var(--c-default);
+  color: #fff;
+  border-radius: 4px;
+  transition: background 0.2s ease-in;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  width: 250px;
+  font-family: 'GothamBold';
+  font-size: 14px;
+}
 }
 </style>
