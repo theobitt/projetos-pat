@@ -52,7 +52,7 @@ setup() {
     flex-direction: row;
     width: 100%;
     padding: 40px;
-    gap: 1vh;
+    gap: -10vh;
 }
 .each-photo{
     display: flex;
@@ -96,10 +96,76 @@ h1{
     margin-top: 5vh;
 }
 h2{
-    margin-top: 2rem;
+    margin-top: -2rem;
     font-size: 30px;
 }
 h4{
     font-size: 16px;
+}
+
+@media only screen and (max-width: 1024px) and (max-height: 768px){
+    .about-us-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(52deg, rgb(40, 34, 34) 20%, rgb(54, 54, 54) 100%);
+    color: white;
+    margin-top: 200px;
+    padding: 40px;
+}
+    .photo-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px;
+    /* gap: -10vh; */
+}
+.img1{
+    border-radius: 60%;
+    border: 10px solid var(--c-default);
+    width: 200px;
+    height: 200px;
+    transform: scale(0.7);
+    background-image: url("@/assets/img/theo.png");
+    background-position-x: -10px;
+  background-repeat: no-repeat;
+  background-size: 110%;
+}
+.img1:hover {
+    transform: scale(0.9);
+    transition: 0.7s ease-in;
+    cursor: pointer;
+}
+.img2:hover {
+    transform: scale(0.9);
+    transition: 0.7s ease-in;
+    cursor: pointer;
+}
+.img2{
+    border-radius: 60%;
+    border: 10px solid var(--c-default);
+    width: 200px;
+    height: 200px;;
+    transform: scale(0.7);
+    background-image: url("@/assets/img/rilsete.png");
+    background-position-x: -10px;
+  background-repeat: no-repeat;
+  background-size: 110%;
+}
+h1{
+    margin-top: 15vh;
+    float: right;
+}
+h2{
+    margin-top: 1vh;
+    font-size: 30px;
+}
+h4{
+    font-size: 16px;
+}
+
 }
 </style>

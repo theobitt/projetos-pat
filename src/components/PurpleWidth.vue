@@ -44,4 +44,29 @@ export default {};
   flex-direction: row;
   font-size: 32px;
 }
+@media screen and (max-width: 1024px) and (max-height: 768px){
+  .wide-purple-container {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(52deg, rgba(84,1,126,1) 2%, rgba(142,2,213,1) 50%, rgba(84,1,126,1) 92%);
+  color: white;
+  gap: 3vh;
+  width: 100%;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
+  height: 400px;
+  top: 400px;
+  position: absolute;
+}
+.items-container {
+  align-items: center;
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 32px;
+  gap: 14vh;
+
+}
+}
 </style>

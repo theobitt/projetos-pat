@@ -7,7 +7,7 @@
         <h4>
           Ajudamos empresas a venderem pela internet desde 2020.
         </h4>
-        <ButtonVue class="button" text="Quero vender pela internet!"/>
+        <ButtonVue @click="whatsAppTheo() || whatsAppRilson()" class="button" text="Quero vender pela internet!"/>
       </div>
     
     </div>
@@ -19,7 +19,23 @@ import ButtonVue from './Button.vue';
 export default {
   components: {
     ButtonVue
-  }
+  },
+  setup() {
+    async function whatsAppTheo(){
+     await Vue.swal({
+      icon: "success",
+      title: "Aguarde!"
+     });
+       window.open("https://api.whatsapp.com/send?phone=5521967543780") 
+    }
+    function whatsAppRilson(){
+       window.open("https://api.whatsapp.com/send?phone=5521999431819") 
+    }
+    return{
+        whatsAppTheo,
+        whatsAppRilson
+    }
+}
 };
 </script>
 
@@ -57,6 +73,18 @@ h4{
   color: white;
   margin-top: -10vh;
   text-shadow: 2px 2px 0px rgb(161,0,242, .8);
-
+}
+@media only screen and (max-width: 1024px) and (max-height: 768px){
+  .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  background-image: url("@/assets/img/backgroundheader.jpg");
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position-x: -350px;
+}
 }
 </style>
