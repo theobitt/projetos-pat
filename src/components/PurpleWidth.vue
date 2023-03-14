@@ -70,7 +70,7 @@ img:hover{
   display: flex;
   flex-direction: column;
 }
-@media only screen and (max-height: 653px){
+@media only screen and (max-height: 900px) and (max-width: 700px){
   .wide-purple-container {
   display: flex;
   flex-direction: column;
@@ -79,12 +79,10 @@ img:hover{
   gap: 3vh;
   width: 100%;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
-  height: 400px;
-  /* top: 400px; */
+  height: 500px;
   position: absolute;
 }
 .items-container {
-  /* margin-top: 0vh; */
   align-items: center;
   padding: 60px;
   width: 100%;
@@ -92,7 +90,7 @@ img:hover{
   display: flex;
   flex-direction: column;
   font-size: 22px;
-  gap: 14vh;
+  gap: 10vh;
 
 }
 }

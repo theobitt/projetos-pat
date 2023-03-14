@@ -93,7 +93,7 @@ h4{
   background-position-x: -350px;
 }
 }
-@media only screen and (max-height: 653px){
+@media only screen and (max-height: 900px){
   .container {
   display: flex;
   flex-direction: column;

@@ -101,12 +101,12 @@ h4 {
   font-size: 16px;
 }
 
-@media only screen and (max-height: 653px) {
+@media only screen and (max-height: 900px) {
   .about-us-container {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 1200px;
+    height: 1300px;
     align-items: center;
     justify-content: center;
     background: linear-gradient(
@@ -123,8 +123,9 @@ h4 {
     flex-direction: column;
     width: 100%;
     padding: 40px;
+    justify-content: center;
     align-items: center;
-    margin-right: 5vh;
+    margin-right: 12vh;
   }
   .img1 {
     border-radius: 60%;
@@ -177,5 +178,9 @@ h4 {
     width: 100%;
     align-items: center;
   }
+}
+@media screen and (max-height: 653px) {
+    
+    
 }
 </style>

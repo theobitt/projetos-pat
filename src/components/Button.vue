@@ -61,7 +61,7 @@ img:hover{
   /* opacity: 0.7; */
 }
 
-@media only screen and (max-height: 653px){
+@media only screen and (max-height: 900px){
   button {
   height: 42px;
   border: none;
