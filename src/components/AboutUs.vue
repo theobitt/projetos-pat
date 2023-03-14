@@ -96,8 +96,8 @@ h1{
     margin-top: 5vh;
 }
 h2{
-    margin-top: -2rem;
     font-size: 30px;
+    margin-top: 2vh;
 }
 h4{
     font-size: 16px;
@@ -122,6 +122,7 @@ h4{
     width: 100%;
     padding: 40px;
     align-items: center;
+    margin-right: 5vh;
 }
 .img1{
     border-radius: 60%;
@@ -160,7 +161,7 @@ h1{
     float: right;
 }
 h2{
-    margin-top: 1vh;
+    margin-top: 0vh;
     font-size: 15px;
     width: 100%;
 }
