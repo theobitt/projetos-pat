@@ -1,0 +1,25 @@
+:root {
+  --c-default: #a100f2;
+  --c-light: #aa00ff;
+  --c-default2: rgb(96, 63, 163);
+  --c-cleangrey: #2f2f2f;
+  --c-white-default: #f8f8f2;
+  --c-white-hover-default: #e6e6e6;
+  --c-white-default2: #ffffff;
+  --border-radius: 10px;
+  --padding: 8px;
+  --c-red-default: #d33;
+}
+@font-face {
+  font-family: 'GothamBold';
+  src: url('@/assets//fonts/GothamBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GothamLight';
+  src: url('@/assets//fonts/GothamLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'GothamMedium';
+  src: url('@/assets//fonts/GothamMedium.ttf') format('truetype');
+}
