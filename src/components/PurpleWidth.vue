@@ -2,9 +2,19 @@
   <div class="container">
     <div class="wide-purple-container">
       <div class="items-container">
-        <div>+12 colaboradores!</div>
-        <div>+R$17.000 investidos!</div>
-        <div>+3 anos no mercado</div>
+        <div class="each-item">
+          <img src="@/assets/icons/coffe.svg" alt=""> 
+          +12 colaboradores! 
+        </div>
+        <div class="each-item">
+          <img src="@/assets/icons/cash.svg" alt=""> 
+          +R$17.000 investidos!
+        </div>
+        <div class="each-item">
+          <img src="@/assets/icons/celebrate.svg" alt=""> 
+
+          +3 anos no mercado
+        </div>
       </div>
     </div>
   </div>
@@ -35,6 +45,18 @@ export default {};
   top: 400px;
   position: absolute;
 }
+img{
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(248deg) brightness(107%) contrast(102%);
+  transform: scale(0.8);
+  width: 40px;
+  height: 40px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+img:hover{
+  transform: rotateY(180deg);
+
+}
 .items-container {
   align-items: center;
   padding: 40px;
@@ -43,6 +65,10 @@ export default {};
   display: flex;
   flex-direction: row;
   font-size: 32px;
+}
+.each-item{
+  display: flex;
+  flex-direction: column;
 }
 @media only screen and (max-height: 653px){
   .wide-purple-container {
@@ -60,7 +86,7 @@ export default {};
 .items-container {
   /* margin-top: 0vh; */
   align-items: center;
-  padding: 40px;
+  padding: 60px;
   width: 100%;
   height: 100%;
   display: flex;
