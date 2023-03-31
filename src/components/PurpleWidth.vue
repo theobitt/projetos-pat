@@ -42,7 +42,7 @@ export default {};
   width: 100%;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
   height: 200px;
-  top: 400px;
+  /* top: 400px; */
   position: absolute;
 }
 img{

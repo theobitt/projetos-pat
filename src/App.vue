@@ -4,7 +4,18 @@
     <router-link to="/about">About</router-link>
   </nav> -->
   <router-view />
+  <!-- <WhatsApp/> -->
 </template>
+<script>
+// import { WhatsApp } from '@/components/WhatsApp.vue'
+
+export default ({
+  components:{
+    // WhatsApp
+  }
+
+})
+</script>
 
 <style>
 @import "./assets/styles/default.css";

@@ -43,7 +43,6 @@ export default {
   justify-content: center;
   background: linear-gradient(52deg, rgb(40, 34, 34) 20%, rgb(54, 54, 54) 100%);
   color: white;
-  margin-top: 200px;
   padding: 40px;
 }
 .photo-container {
@@ -124,8 +123,10 @@ h4 {
     width: 100%;
     padding: 40px;
     justify-content: center;
+    align-content: center;
     align-items: center;
-    margin-right: 12vh;
+    margin-right: 0vh;
+    margin-left: 0vh;
   }
   .img1 {
     border-radius: 60%;
@@ -179,8 +180,29 @@ h4 {
     align-items: center;
   }
 }
-@media screen and (max-height: 653px) {
-    
+@media screen and (max-height: 660px) {
+    .photo-container{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        margin-left: -10vh;
+    }
+    h1 {
+    margin-top: 10vh;
+  }
+  h2 {
+    margin-left: 6vh;
+    margin-top: 0vh;
+    font-size: 15px;
+    width: 100%;
+  }
+  h4 {
+    margin-left: 6vh;
+    font-size: 12px;
+    margin-top: 2vh;
+    width: 100%;
+
+  }
     
 }
 </style>
