@@ -1,27 +1,9 @@
 <template>
   <div class="home-container">
-    <div class="navbar">
-      <div class="nav-content">
-        <div>
-          <a class="nav-link" href="purple">
-            Experiência
-          </a>
-        </div>
-        <div>
-          <a class="nav-link" href="purple">
-            Sobre nós
-          </a>
-        </div>
-        <div>
-          <a class="nav-link" href="purple">
-            Nosso serviços
-          </a>
-        </div>
-      </div>
-    </div>
       <FirstSection id="first-section"/>
     <PurpleWidth id="purple"/>
       <ServicesSection id="servicos"/>
+      <nossosClientes/>
       <about-us id="always"/>
       <FooterComponent />
   </div>
@@ -33,6 +15,7 @@ import PurpleWidth from '@/components/PurpleWidth.vue'
 import AboutUs from '@/components/AboutUs.vue'
 import ServicesSection from '@/components/ServicesSection.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
+import nossosClientes from '@/components/nossosClientes.vue'
 // import VueWhatsappWidget from "vue-whatsapp-widget";
 
 
@@ -45,7 +28,8 @@ export default {
     PurpleWidth,
     AboutUs,
     ServicesSection,
-    FooterComponent
+    FooterComponent,
+    nossosClientes
   }
 }
 </script>

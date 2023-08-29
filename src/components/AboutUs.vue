@@ -113,8 +113,7 @@ h4 {
       rgb(40, 34, 34) 20%,
       rgb(54, 54, 54) 100%
     );
-    color: white;
-    margin-top: 200px;
+    color: var(--c-white-default);
     padding: 40px;
   }
   .photo-container {

@@ -63,12 +63,13 @@ export default {
   border: 3px solid var(--c-default);
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  background-color: var(--c-cleangrey);
+  background-color: var(--c-cleangrey2);
   width: 350px;
   height: 200px;
   font-weight: bold;
   border-radius: 20px;
   text-decoration-line: none; 
+  color: white;
 }
 .each-box:hover {
   transform: scale(1.2);
@@ -86,6 +87,47 @@ h1 {
   margin-bottom: 3vh;
   margin-top: 2vh;
  
+}
+@media only screen and (max-width: 820px){
+  .service-row {
+  gap: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(52deg, rgb(40, 34, 34) 20%, rgb(54, 54, 54) 100%);
+  width: 100%;
+  /* height: 500px; */
+}
+
+.each-box {
+  padding: 15px;
+  border: 3px solid var(--c-default);
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  background-color: var(--c-cleangrey);
+  width: 350px;
+  height: 200px;
+  font-weight: bold;
+  border-radius: 20px;
+  text-decoration-line: none; 
+  transform: scale(0.8);
+}
+.each-box:hover {
+  transform: scale(1.0);
+  border: 3px solid var(--c-light);
+  text-decoration-color: var(--c-default);
+}
+.title {
+  padding: 40px 0px;
+  margin-top: 15vh;
+  color: white;
+  margin-bottom: -20vh;
+}
 }
 @media only screen and (max-height: 900px) and (max-width: 700px) {
     .service-row {
